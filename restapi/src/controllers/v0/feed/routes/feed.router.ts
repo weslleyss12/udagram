@@ -23,6 +23,8 @@ router.get('/:id', async (req: Request, res: Response) => {
     if (!id) return res.status(400).send({ message: 'id is required' })
 
     const item = await FeedItem.findByPk(id)
+    if (!item) return res.status(404).send({ message: 'item not found' })
+
     res.send(item)
 })
 
