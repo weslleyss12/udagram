@@ -1,17 +1,17 @@
 {
 	"info": {
 		"_postman_id": "4bcf1909-8996-44b7-be35-b130ab03d12f",
-		"name": "cloud-cdnd-c2-final",
+		"name": "image-filter",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://localhost:8082/filteredimage?image_url=https://timedotcom.files.wordpress.com/2019/03/kitten-report.jpg",
+			"name": "http://image-filter-dev-dev2.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://images.unsplash.com/photo-1585995207585-04603193f36b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://{{HOST}}/filteredimage?image_url=https://timedotcom.files.wordpress.com/2019/03/kitten-report.jpg",
+					"raw": "http://{{HOST}}/filteredimage?image_url=https://images.unsplash.com/photo-1585995207585-04603193f36b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
 					"protocol": "http",
 					"host": [
 						"{{HOST}}"
@@ -22,7 +22,7 @@
 					"query": [
 						{
 							"key": "image_url",
-							"value": "https://timedotcom.files.wordpress.com/2019/03/kitten-report.jpg"
+							"value": "https://images.unsplash.com/photo-1585995207585-04603193f36b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
 						}
 					]
 				}
@@ -56,7 +56,7 @@
 		{
 			"id": "1df3d31a-de30-494b-a3d0-f1228dd8713c",
 			"key": "HOST",
-			"value": "localhost:8082",
+			"value": "image-filter-dev-dev2.us-east-1.elasticbeanstalk.com",
 			"type": "string"
 		}
 	]
