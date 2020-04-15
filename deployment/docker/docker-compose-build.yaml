@@ -15,4 +15,4 @@ services:
   frontend:
     build:
       context: ../../frontend  
-    image: weslleyss12/udacity-frontend:local
+    image: weslleyss12/udacity-frontend

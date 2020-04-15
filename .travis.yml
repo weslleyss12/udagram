@@ -23,4 +23,4 @@ script:
   - docker push weslleyss12/reverseproxy
   - docker push weslleyss12/udacity-restapi-user
   - docker push weslleyss12/udacity-restapi-feed
-  - docker push weslleyss12/udacity-frontend:local
+  - docker push weslleyss12/udacity-frontend
